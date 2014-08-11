@@ -1,0 +1,109 @@
+
+    <AbsoluteLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/AbsoluteLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+		
+        <ImageView
+            android:id="@+id/tempimgview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_x="0dp"
+            android:layout_y="4dp"
+            android:src="@drawable/tmp" />
+
+        <TextView
+            android:id="@+id/temptext"
+            android:layout_width="215dp"
+            android:layout_height="94dp"
+            android:layout_x="102dp"
+            android:layout_y="4dp"
+            android:textSize="15pt"
+            android:text="@string/temptext" />
+
+        <TextView
+            android:id="@+id/temp_label1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="50dp"
+            android:layout_y="132dp"
+            android:text="@string/temp_label1" />
+
+        <TextView
+            android:id="@+id/temp_label2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="50dp"
+            android:layout_y="186dp"
+            android:text="@string/temp_label2" />
+
+        <TextView
+            android:id="@+id/temp_label3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="50dp"
+            android:layout_y="240dp"
+            android:text="@string/temp_label3" />
+
+        <TextView
+            android:id="@+id/temp_label4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="50dp"
+            android:layout_y="294dp"
+            android:text="@string/temp_label4" />
+
+        <EditText
+            android:id="@+id/temp_et1"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_x="120dp"
+            android:layout_y="116dp"
+            android:ems="10"
+            android:textSize="18sp" 
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/temp_et2"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_x="120dp"
+            android:layout_y="170dp"
+            android:ems="10"
+            android:focusable="false"
+            android:textSize="18sp"
+            android:enabled="false" />
+
+        <EditText
+            android:id="@+id/temp_et3"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_x="120dp"
+            android:layout_y="224dp"
+            android:ems="10"
+            android:focusable="false"
+            android:textSize="18sp" 
+            android:enabled="false"/>
+
+        <EditText
+            android:id="@+id/temp_et4"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_x="120dp"
+            android:layout_y="278dp"
+            android:ems="10"
+            android:focusable="false"
+            android:textSize="18sp"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/temp_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="120dp"
+            android:layout_y="357dp"
+            android:text="@string/back"
+            android:textSize="12pt" />
+
+    </AbsoluteLayout>

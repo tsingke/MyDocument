@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智能家居环境监控软件</string>
+    <string name="menu_settings">Settings</string>
+    <string name="connect">连接</string>
+    <string name="temp">温度监控</string>
+    <string name="gas">气体监控</string>
+    <string name="light">光强监控</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+    <string name="led1">1号灯</string>
+    <string name="led2">2号灯</string>
+    <string name="led3">3号灯</string>
+    <string name="led4">4号灯</string>
+    <string name="version">版本号:</string>
+    <string name="textconnect">请输入服务器的IP地址：</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="progressBar_connect">连接中......</string>
+    <string name="temptext">远程温度监测</string>
+    <string name="back">返回上一级</string>
+    <string name="temp_label1">节点1温度:</string>
+    <string name="temp_label2">节点2温度:</string>
+    <string name="temp_label3">节点3温度:</string>
+    <string name="temp_label4">节点4温度:</string>
+    <string name="gas_label1">节点1瓦斯:</string>
+    <string name="gas_label2">节点2瓦斯:</string>
+    <string name="gas_label3">节点3瓦斯:</string>
+    <string name="gas_label4">节点4瓦斯:</string>
+    <string name="gastext">远程瓦斯监控</string>
+    <string name="lighttext">远程光强监测</string>
+    <string name="light_text1">节点1光强:</string>
+    <string name="light_text2">节点2光强:</string>
+    <string name="light_text3">节点3光强:</string>
+    <string name="light_text4">节点4光强:</string>
+    <string name="versioncode">V1.0</string>
+    <string name="bugreport">信息反馈：</string>
+    <string name="email">zwn476867589@gmail.com</string>
+
+</resources>

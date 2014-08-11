@@ -1,0 +1,132 @@
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/gasimgview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_x="6dp"
+            android:layout_y="2dp"
+            android:src="@drawable/gas" />
+
+        <TextView
+            android:id="@+id/gastext"
+            android:layout_width="201dp"
+            android:layout_height="106dp"
+            android:layout_x="116dp"
+            android:layout_y="0dp"
+            android:textSize="15pt"
+            android:text="@string/gastext" />
+
+        <Button
+            android:id="@+id/gas_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="90dp"
+            android:layout_y="380dp"
+            android:text="@string/back"
+            android:textSize="12pt" />
+
+        <EditText
+            android:id="@+id/gas_et1"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_x="90dp"
+            android:layout_y="140dp"
+            android:ems="10"
+            android:enabled="false"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/gas_et2"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_x="90dp"
+            android:layout_y="200dp"
+            android:ems="10"
+            android:enabled="false"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/gas_et3"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_x="90dp"
+            android:layout_y="260dp"
+            android:ems="10"
+            android:enabled="false"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/gas_et4"
+            android:layout_width="145dp"
+            android:layout_height="40dp"
+            android:layout_x="90dp"
+            android:layout_y="320dp"
+            android:ems="10"
+            android:enabled="false"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/gas_label1"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_x="10dp"
+            android:layout_y="140dp"
+            android:text="@string/gas_label1" />
+
+        <TextView
+            android:id="@+id/gas_label4"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_x="10dp"
+            android:layout_y="320dp"
+            android:text="@string/gas_label4" />
+
+        <TextView
+            android:id="@+id/gas_label3"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_x="10dp"
+            android:layout_y="260dp"
+            android:text="@string/gas_label3" />
+
+        <TextView
+            android:id="@+id/gas_label2"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_x="10dp"
+            android:layout_y="200dp"
+            android:text="@string/gas_label2" />
+
+        <RadioButton
+            android:id="@+id/gas_rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="260dp"
+            android:layout_y="140dp" />
+
+        <RadioButton
+            android:id="@+id/gas_rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="260dp"
+            android:layout_y="200dp" />
+
+        <RadioButton
+            android:id="@+id/gas_rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="260dp"
+            android:layout_y="260dp" />
+
+        <RadioButton
+            android:id="@+id/gas_rb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="260dp"
+            android:layout_y="332dp" />
+
+    </AbsoluteLayout>

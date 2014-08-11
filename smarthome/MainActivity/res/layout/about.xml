@@ -1,0 +1,60 @@
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:background="#aaaaaa">
+
+        <ImageView
+            android:id="@+id/aboutimgview"
+            android:layout_width="210dp"
+            android:layout_height="171dp"
+            android:layout_x="49dp"
+            android:layout_y="26dp"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/abouttext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="214dp"
+            android:text="@string/app_name"
+            android:textSize="13pt" />
+
+        <Button
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="371dp"
+            android:text="@string/email"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/bugreport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="312dp"
+            android:text="@string/bugreport"
+            android:textSize="12pt" />
+
+        <TextView
+            android:id="@+id/versiontext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="267dp"
+            android:text="@string/version"
+            android:textSize="12pt" />
+
+        <TextView
+            android:id="@+id/versioncode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="112dp"
+            android:layout_y="268dp"
+            android:text="@string/versioncode"
+            android:textSize="12pt" />
+
+    </AbsoluteLayout>

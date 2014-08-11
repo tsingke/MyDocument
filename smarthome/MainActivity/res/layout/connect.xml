@@ -1,0 +1,56 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="#aaaaaa"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="312dp"
+        android:text="@string/ok" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="186dp"
+        android:layout_y="312dp"
+        android:text="@string/cancel" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_connect"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_x="127dp"
+        android:layout_y="202dp"
+        android:visibility="gone" 
+        />
+
+    <EditText
+        android:id="@+id/edtext_connect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="180dp"
+        android:ems="10"
+        android:textSize="15pt" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/connecttext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="100dp"
+        android:text="@string/textconnect"
+        android:textSize="12pt" />
+
+</AbsoluteLayout>

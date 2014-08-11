@@ -1,0 +1,99 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="#aaaaaa"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_x="115dp"
+        android:layout_y="10dp"
+        android:text="@string/connect" />
+
+    <Button
+        android:id="@+id/btn_gas"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_x="115dp"
+        android:layout_y="235dp"
+        android:text="@string/gas" />
+
+    <Button
+        android:id="@+id/btn_light"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_x="115dp"
+        android:layout_y="160dp"
+        android:text="@string/light" />
+
+    <Button
+        android:id="@+id/btn_temp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_x="115dp"
+        android:layout_y="85dp"
+        android:gravity="center_vertical|center_horizontal|fill_horizontal"
+        android:text="@string/temp" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_x="110dp"
+        android:layout_y="412dp"
+        android:text="@string/exit" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_x="0dp"
+        android:layout_y="319dp"
+        android:focusable="true" >
+
+        <ToggleButton
+            android:id="@+id/led1"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:textOn="一号灯开"
+            android:textOff="一号灯关" />
+
+        <ToggleButton
+            android:id="@+id/led2"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:textOn="二号灯开"
+            android:textOff="二号灯关"
+             />
+
+        <ToggleButton
+            android:id="@+id/led3"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:textOn="三号灯开"
+            android:textOff="三号灯关"
+             />
+
+        <ToggleButton
+            android:id="@+id/led4"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:textOn="四号灯开"
+            android:textOff="四号灯关"
+             />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/ledtextshow"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_x="2dp"
+        android:layout_y="364dp"
+        android:text="helo" />
+
+</AbsoluteLayout>
